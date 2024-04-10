@@ -44,3 +44,27 @@ button#submit-button {
     50% { transform: scale(1.2); }
     100% { transform: scale(1); }
 }
+
+/* Styling kan tilpasses efter behov */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+th {
+    background-color: #f2f2f2;
+}
