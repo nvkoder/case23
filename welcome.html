@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h2>Velkommen til El-reminder</h2>
+<p>Du er nu logget ind.</p>
+
+<script>
+    setTimeout(function() {
+        window.location.href = "{{ url_for('preferencer') }}";
+    }, 5000); // Skift side efter 5 sekunder (5000 millisekunder)
+</script>
+
+{% endblock %}
